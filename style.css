@@ -200,7 +200,7 @@ img.float-right {
 .kizi img, .kizi .wp-caption, textarea {
 	margin-bottom: 20px;
 	height: auto;
-	max-width: 100%!important;
+	width: 140px!important;
 }
 /*----------------------------
 引用
