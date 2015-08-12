@@ -35,7 +35,8 @@ BASE
 ------------------------------*/
 
 * {
-	font-family: arial, helvetica, osaka, "MS PGothic", sans-serif;
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+>>>>>>> 6cda9293ff7a82ef2a9d19f16c71a24020f357df
 	margin: 0px;
 	padding: 0px;
 }
@@ -332,16 +333,16 @@ h2 {
 	padding-top: 5px;
 	padding-right: 10px;
 	padding-bottom: 5px;
-	padding-left: 35px;
-	border-left-width: 5px;
-	border-left-style: solid;
-	border-left-color: #1a1a1a;
+	padding-left: 0px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #e8e8e8;
 	color: #333;
 	line-height: 30px;
 	margin-top: 20px;
 	margin-right: 0px;
 	margin-bottom: 20px;
-	margin-left: -40px;
+	margin-left: 0px;
 }
 /*小見出し*/
 
@@ -376,6 +377,14 @@ h2 {
 	border-bottom-style: dotted;
 	border-bottom-color: #999999;
 }
+.kizi .first-word {
+	margin: 30px 0px 32px 0px;
+}
+
+.kizi p {
+	font-size: 16px;
+}
+
 h3 a {
 	color: #333;
 	text-decoration: none;
@@ -457,7 +466,7 @@ h3 a:hover {
 ------------------------------*/
 
 #header-in, #wrap-in, #navi-in, #footer-in, #gazou-in {
-	width: 986px;
+	width: 1070px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -467,7 +476,7 @@ h3 a:hover {
 }
 #wrap #wrap-in #main {
 	float: left;
-	width: 550px;
+	width: 630px;
 	padding-right: 39px;
 	padding-left: 39px;
 	padding-top: 20px;
