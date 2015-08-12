@@ -277,7 +277,7 @@ h2 {
 /*-----------------------------
 基本構造
 ------------------------------*/
- 
+
 #container, #footer {
 	width: 100%;
 	overflow: hidden;
@@ -483,11 +483,13 @@ div.affix {
 	padding: 10px;
 }
 .sumbox {
-	text-align: center;
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
+	margin-left: 10%;
+	margin-right:10%;
+	max-width: 200px
 }
 .sumbun {
 	padding: 10px;
@@ -765,8 +767,8 @@ SNS
 /*-----------------------------
 ページナビ
 ------------------------------*/
- 
- 
+
+
 .pagination {
 	clear: both;
 	position: relative;
