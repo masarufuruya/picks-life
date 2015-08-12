@@ -457,7 +457,7 @@ h3 a:hover {
 ------------------------------*/
 
 #header-in, #wrap-in, #navi-in, #footer-in, #gazou-in {
-	width: 986px;
+	width: 1070px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -467,7 +467,7 @@ h3 a:hover {
 }
 #wrap #wrap-in #main {
 	float: left;
-	width: 550px;
+	width: 630px;
 	padding-right: 39px;
 	padding-left: 39px;
 	padding-top: 20px;
