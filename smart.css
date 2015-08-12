@@ -55,7 +55,7 @@ img {
 .kizi img, .wp-caption, .kizi video, .kizi object, .kizi iframe, .kizi table {
 	margin-bottom: 20px;
 	height: auto;
-	width: 140px!important;
+	max-width: 100%!important;
 }
 #gazou img {
 	height: auto;
@@ -324,6 +324,10 @@ h2 {
 .entry {
 	margin-bottom: 20px;
 	padding-top: 10px;
+}
+#wrap #main .entry .sumbox {
+	width: 140px!important;
+	height: auto;
 }
 #container #header #header-in #h-l .sitename {
 	font-size: 26px;
