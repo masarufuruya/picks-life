@@ -55,7 +55,7 @@ img {
 .kizi img, .wp-caption, .kizi video, .kizi object, .kizi iframe, .kizi table {
 	margin-bottom: 20px;
 	height: auto;
-	max-width: 100%!important;
+	width: 140px!important;
 }
 #gazou img {
 	height: auto;

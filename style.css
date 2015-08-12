@@ -200,7 +200,7 @@ img.float-right {
 .kizi img, .kizi .wp-caption, textarea {
 	margin-bottom: 20px;
 	height: auto;
-	width: 140px!important;
+	max-width: 100%!important;
 }
 /*----------------------------
 引用
@@ -1073,6 +1073,7 @@ div.affix {
 	font-size: 12px;
 	color: #666666;
 }
+
 #container #wrap #wrap-in #main .post .entry .entry-content .motto .more-link {
 	font-size: 12px;
 }
