@@ -466,6 +466,11 @@ h3 a:hover {
 
 #header-in, #wrap-in, #navi-in, #footer-in, #gazou-in {
 	width: 1070px;
+
+	/* デバイスの横幅が320px以下の場合 */
+	@media only screen and (max-width: 320px) {
+		width: 986px!important;
+	}
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -476,6 +481,12 @@ h3 a:hover {
 #wrap #wrap-in #main {
 	float: left;
 	width: 630px;
+
+	/* デバイスの横幅が320px以下の場合 */
+	@media only screen and (max-width: 320px) {
+		width: 550px!important;
+	}
+
 	padding-right: 39px;
 	padding-left: 39px;
 	padding-top: 20px;
