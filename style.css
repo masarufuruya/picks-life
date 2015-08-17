@@ -202,6 +202,7 @@ img.float-right {
 	height: auto;
 	max-width: 100%!important;
 }
+
 /*----------------------------
 引用
 -----------------------------*/
@@ -476,11 +477,11 @@ h3 a:hover {
 }
 #wrap #wrap-in #side {
 	float: right;
-	width: 336px;
+	width: 31%;
 }
 #wrap #wrap-in #main {
 	float: left;
-	width: 630px;
+	width: 59%;
 
 	/* デバイスの横幅が320px以下の場合 */
 	@media only screen and (max-width: 320px) {
@@ -1312,4 +1313,14 @@ page itiran
 }
 #topnews div dl dd .datebox a {
 	color: #999;
+}
+/*---------------------------------
+add
+--------------------------------*/
+.red {
+	font-weight: bold;
+	color: #ac0308;
+}
+.hatena {
+	margin-bottom: 8px!important;
 }
