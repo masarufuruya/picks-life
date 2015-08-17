@@ -481,7 +481,7 @@ h3 a:hover {
 }
 #wrap #wrap-in #main {
 	float: left;
-	width: 59%;
+	width: 57%!important;
 
 	/* デバイスの横幅が320px以下の場合 */
 	@media only screen and (max-width: 320px) {
